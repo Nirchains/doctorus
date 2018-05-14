@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include doctorus *.css
+recursive-include doctorus *.csv
+recursive-include doctorus *.html
+recursive-include doctorus *.ico
+recursive-include doctorus *.js
+recursive-include doctorus *.json
+recursive-include doctorus *.md
+recursive-include doctorus *.png
+recursive-include doctorus *.py
+recursive-include doctorus *.svg
+recursive-include doctorus *.txt
+recursive-exclude doctorus *.pyc
