@@ -16,7 +16,16 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/doctorus/css/doctorus.css"
-# app_include_js = "/assets/doctorus/js/doctorus.js"
+app_include_css = [
+	"/assets/css/material.css", 
+	"/assets/css/custom.css"
+]
+app_include_js = [
+	"/assets/js/custom.js",
+    "/assets/js/core.js"
+]
+
+fixtures=['Custom Field', 'Property Setter','Print Format','Custom Script']
 
 # include js, css files in header of web template
 # web_include_css = "/assets/doctorus/css/doctorus.css"
@@ -61,7 +70,7 @@ app_license = "MIT"
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "doctorus.notifications.get_notification_config"
+notification_config = "doctorus.startup.notifications.get_notification_config"
 
 # Permissions
 # -----------

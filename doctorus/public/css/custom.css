@@ -1,0 +1,101 @@
+#page-desktop {
+    background-color: #666666 !important;
+}
+
+.grid-static-col.bold {
+  background-color: transparent !important;
+}
+.help-box {
+  font-size: 11px;
+  text-align: right;
+}
+textarea.form-control {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+/*Deshabilitamos los mensajes de ayuda*/
+.help-message-wrapper {
+  display: none;
+}
+/*Altura de las columnas en las listas*/
+.list-item {
+  height: auto;
+  min-height: 40px;
+}
+.ellipsis-mul-lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.list-item__content {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+/*Estilos Home*/
+h6.uppercase,
+.h6.uppercase {
+  font-size: 14px;
+}
+.app-icon {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.app-icon:hover {
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.7);
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.case-wrapper[data-name="Explore"] {
+  display: none !important;
+}
+.btn-default {
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+}
+/*BUG desplegable de búsqueda en filtros*/
+.filter-header .dropdown-menu {
+  overflow: visible;
+  margin-top: -20px;
+}
+.filter-header .dropdown-menu ul {
+  max-height: 150px;
+}
+.form-layout {
+  padding-bottom: 200px;
+}
+.grid-row-open .form-in-grid {
+  overflow-y: scroll;
+  position: fixed;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+}
+.navbar-brand {
+  height: inherit;
+}
+.li50 {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+}
+.grid-row .open {
+  color: #8D99A6;
+}
+.grid-heading-row .open {
+  display: none;
+}
+.grid-row > .row .col:last-child {
+  border-right-width: 0px;
+}
+.fc-day-grid-event .fc-content {
+  white-space: inherit !important;
+  overflow: inherit !important;
+}

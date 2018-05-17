@@ -1,0 +1,18 @@
+{
+    "css/material.css": [
+        "public/css/material.css"
+    ],
+    "css/custom.css": [
+        "public/css/custom.css"
+    ],
+    "js/custom.js": [
+        "public/js/fix.js",
+        "public/js/extra.js",
+        "public/js/custom.js"
+    ],
+    "js/core.js": [
+        "public/js/core/calendar.js",
+        "public/js/core/grid.js",
+        "public/js/core/grid_row.js"
+    ]
+}
