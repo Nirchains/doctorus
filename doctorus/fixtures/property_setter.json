@@ -49,5 +49,22 @@
   "property": "read_only_onload", 
   "property_type": "Check", 
   "value": null
+ }, 
+ {
+  "_assign": null, 
+  "_comments": null, 
+  "_liked_by": null, 
+  "_user_tags": null, 
+  "default_value": null, 
+  "doc_type": "Departamento", 
+  "docstatus": 0, 
+  "doctype": "Property Setter", 
+  "doctype_or_field": "DocField", 
+  "field_name": "title", 
+  "modified": "2018-05-17 18:12:21.035656", 
+  "name": "Departamento-title-width", 
+  "property": "width", 
+  "property_type": null, 
+  "value": "410"
  }
 ]
