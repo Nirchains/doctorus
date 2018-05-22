@@ -735,7 +735,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 }
 
 .ui-slider-horizontal { height: .8em; }
-.ui-slider-horizontal .ui-slider-handle {top: -.3em;margin-left: -.6em;background: #7574ff;border: none;border-radius: 10px;}
+.ui-slider-horizontal .ui-slider-handle {top: -.3em;margin-left: -.6em;background: rgb(117,162,111);border: none;border-radius: 10px;}
 .ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
 .ui-slider-horizontal .ui-slider-range-min { left: 0; }
 .ui-slider-horizontal .ui-slider-range-max { right: 0; }
@@ -757,7 +757,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
  * http://jqueryui.com/datepicker/
  */
 .ui-datepicker { width: 17em; padding: .2em .2em 0; display: none; }
-.ui-datepicker .ui-datepicker-header {position:relative;padding:.2em 0;border:0px;font-weight: bold;width: 100%;padding: 4px 0;background-color: #7574ff;color: #808080;}
+.ui-datepicker .ui-datepicker-header {position:relative;padding:.2em 0;border:0px;font-weight: bold;width: 100%;padding: 4px 0;background-color: rgb(117,162,111);color: #808080;}
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {position:absolute;top: 2px;width: 1.8em;height: 1.8em;}
 
 .ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { /*top: 1px;*/ }
@@ -939,7 +939,7 @@ html {
 }
 .form-control:focus {
   outline: 0;
-  border-bottom: 2px solid #7574ff;
+  border-bottom: 2px solid rgb(117,162,111);
   box-shadow: none;
   border-top: none;
   border-left: none;
@@ -997,7 +997,7 @@ html {
 .dropdown-menu > li > a:focus {
   color: #ffffff;
 
-  background-color: #7574ff;
+  background-color: rgb(117,162,111);
 }
 
 .nav > li > a:hover,
@@ -1011,7 +1011,7 @@ html {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
 
-  background-color: #7574ff;
+  background-color: rgb(117,162,111);
   color: white;
 }
 
@@ -1043,7 +1043,7 @@ html {
 a:hover,
 a:focus {
   text-decoration: blink;
-  color: #7574ff;
+  color: rgb(117,162,111);
 }
 
 .ui-autocomplete .link-option {
@@ -1107,7 +1107,7 @@ a:focus {
 .ui-autocomplete .ui-state-focus,
 .ui-datepicker .ui-state-hover,
 .ui-autocomplete .ui-state-hover {
-  background-color: #7574ff !important;
+  background-color: rgb(117,162,111) !important;
   color: #ffffff !important;
   text-shadow: none !important;
 }
@@ -1209,7 +1209,7 @@ a:focus {
 .layout-side-section .sidebar-menu > li > a:focus,
 .layout-side-section .sidebar-menu > li > a:active {
   text-decoration: blink;
-  color: #7574ff;
+  color: rgb(117,162,111);
 }
 
 /*
@@ -1226,7 +1226,7 @@ a:focus {
 
 .editable-title .title-text:hover {
   background-color: #eeeeee;
-  color: #7574ff;
+  color: rgb(117,162,111);
 }
 
 .layout-main-section {

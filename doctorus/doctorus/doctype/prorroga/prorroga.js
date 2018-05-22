@@ -9,6 +9,15 @@ frappe.ui.form.on('Prorroga', {
 					frappe.set_route("Form", "Expediente", frm.doc.expedient);
 				}
 			);
+
+			frm.add_custom_button(__("Ver matrículas"),
+				function() {
+					frappe.route_options = {
+						"expedient": frm.doc.expedient
+					};
+					frappe.set_route("List", "Matricula");
+				}
+			);
 		}
 	}
 });
