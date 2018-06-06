@@ -327,7 +327,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2018-06-06 19:48:32.102771", 
+ "modified": "2018-06-06 20:11:23.174867", 
  "modified_by": "Administrator", 
  "module": "DoctorUS", 
  "name": "Actividad", 
@@ -337,7 +337,7 @@
   {
    "amend": 0, 
    "apply_user_permissions": 0, 
-   "cancel": 0, 
+   "cancel": 1, 
    "create": 1, 
    "delete": 1, 
    "email": 1, 
@@ -357,7 +357,7 @@
   {
    "amend": 0, 
    "apply_user_permissions": 0, 
-   "cancel": 0, 
+   "cancel": 1, 
    "create": 1, 
    "delete": 1, 
    "email": 1, 
