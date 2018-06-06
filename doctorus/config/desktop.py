@@ -56,4 +56,31 @@ def get_data():
 			"label": _("Pr&oacute;rrogas"),
 			"link": "List/Prorroga"
 		},
+		{
+			"_doctype": "Cambio de Modalidad",
+			"module_name": "Cambios de Modalidad",
+			"color": "#c0392b",
+			"icon": "octicon octicon-git-compare",
+			"type": "link",
+			"label": _("Cambios de Modalidad"),
+			"link": "List/Cambio de Modalidad"
+		},
+		{
+			"_doctype": "Actividad",
+			"module_name": "Actividades",
+			"color": "#7574ff",
+			"icon": "octicon octicon-calendar",
+			"type": "link",
+			"label": _("Actividades"),
+			"link": "List/Actividades"
+		},
+		{
+			"_doctype": "Evaluacion",
+			"module_name": "Evaluaciones",
+			"color": "#7574ff",
+			"icon": "octicon octicon-checklist",
+			"type": "link",
+			"label": _("Evaluaciones"),
+			"link": "List/Evaluacion"
+		},
 	]
