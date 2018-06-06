@@ -27,6 +27,7 @@ class Matricula(Document):
 			doc_expedient.course = self.course
 			doc_expedient.status = 'Activo'
 			doc_expedient.save()
+			frappe.clear_cache()
 				
 
 	def on_cancel(self):
@@ -37,6 +38,7 @@ class Matricula(Document):
 			doc_expedient.course = ''
 			doc_expedient.status = 'No matriculado'
 			doc_expedient.save()
+			frappe.clear_cache()
 
 	
 	#Cuenta el número de matrículas válidas

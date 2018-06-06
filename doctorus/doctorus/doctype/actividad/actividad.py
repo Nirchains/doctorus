@@ -28,6 +28,7 @@ def validate_requirements(expedient):
 	if doc_expedient.activities != activities:
 		doc_expedient.activities = activities
 		doc_expedient.save()
+		frappe.clear_cache()
 			
 def check_requirements(expedient):
 	rules = frappe.db.get_list('Requisitos Actividades', filters={

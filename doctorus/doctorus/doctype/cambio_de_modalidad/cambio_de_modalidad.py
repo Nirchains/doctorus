@@ -16,8 +16,10 @@ class CambiodeModalidad(Document):
 			doc_expedient = frappe.get_doc("Expediente", self.expedient)
 			doc_expedient.modality = self.to_modality
 			doc_expedient.save()
-			
+
 			#Actualizamos la modalidad en el expediente
 			doc_enrollment = frappe.get_doc("Matricula", self.enrollment)
 			doc_enrollment.modality = self.to_modality
 			doc_enrollment.save()
+
+			frappe.clear_cache()
