@@ -2,6 +2,7 @@
 // For license information, please see license.txt
 
 cur_frm.add_fetch("expedient", "student_full_name", "student_full_name");
+cur_frm.add_fetch("expedient", "modality", "modality");
 
 frappe.ui.form.on('Matricula', {
 	refresh: function (frm) {

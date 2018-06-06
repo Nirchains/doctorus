@@ -7,7 +7,10 @@ import frappe
 def get_notification_config():
 	notifications =  { "for_doctype":
 		{
-			
+			"Evaluacion": {
+				"evaluation_1": ("not in", ("Positiva")),
+				"evaluation_2": ("in", (""))
+			},
 		}
 	}
 

@@ -7,10 +7,6 @@ import frappe
 from frappe.model.document import Document
 from doctorus.util import force_default
 
-class Expediente(Document):
-	def autoname(self):
-		pass
-		#self.name = ("{0}-{1}").format(self.student, self.program)
-
+class Evaluacion(Document):
 	def validate(self):
 		force_default(self)

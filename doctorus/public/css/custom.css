@@ -40,13 +40,20 @@ h6.uppercase,
   font-size: 14px;
 }
 .app-icon {
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  border-radius: 45px;
 }
 .app-icon:hover {
   box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.7);
   -webkit-transition: all 0.2s ease 0s;
   -o-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
+}
+div[data-link*="modules/"] .app-icon {
+  border-radius: 0;
+}
+.list-link a[disabled="disabled"] {
+  color: #7574ff;
 }
 .case-wrapper[data-name="Explore"] {
   display: none !important;
@@ -99,3 +106,8 @@ h6.uppercase,
   white-space: inherit !important;
   overflow: inherit !important;
 }
+
+.form-column.col-sm-6 .form-grid .row-index > span {
+  display: initial;
+}
+

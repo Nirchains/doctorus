@@ -8,7 +8,11 @@ def get_data():
 		'transactions': [
 			{
 				'label': _('Matr&iacute;culas'),
-				'items': ['Matricula', 'Prorroga']
+				'items': ['Matricula', 'Prorroga', 'Cambio de Modalidad']
+			},
+			{
+				'label': _('Evaluaci&oacute;n'),
+				'items': ['Actividad', 'Evaluacion']
 			}
 		]
 	}

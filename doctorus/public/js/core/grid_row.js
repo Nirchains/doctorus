@@ -278,7 +278,7 @@ frappe.ui.form.GridRow = Class.extend({
 
 		$col.field_area = $('<div class="field-area"></div>').appendTo($col).toggle(false);
 		$col.static_area = $('<div class="static-area ellipsis"></div>')
-		.attr("title", txt.replace(/<(?:.|\n)*?>/gm, ''))
+		.attr("title", txt.toString().replace(/<(?:.|\n)*?>/gm, ''))
 		.appendTo($col).html(txt);
 		$col.df = df;
 		$col.column_index = ci;
@@ -543,7 +543,7 @@ frappe.ui.form.GridRow = Class.extend({
 		var column = this.columns[fieldname];
 		if(column) {
 			column.static_area
-			.attr("title", txt.replace(/<(?:.|\n)*?>/gm, ''))
+			.attr("title", txt.toString().replace(/<(?:.|\n)*?>/gm, ''))
 			.html(txt || "");
 			if(df && df.reqd) {
 				column.toggleClass('error', !!(txt===null || txt===''));

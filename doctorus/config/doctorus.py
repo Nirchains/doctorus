@@ -37,6 +37,21 @@ def get_data():
 					"type": "doctype",
 					"name": "Prorroga",
 					"label": "Pr&oacute;rroga"
+				},
+				{
+					"type": "doctype",
+					"name": "Cambio de Modalidad",
+					"label": "Cambios de Modalidad"
+				},
+				{
+					"type": "doctype",
+					"name": "Actividad",
+					"label": "Actividades"
+				},
+				{
+					"type": "doctype",
+					"name": "Evaluacion",
+					"label": "Evaluaciones"
 				}
 
 			]
@@ -75,6 +90,16 @@ def get_data():
 					"type": "doctype",
 					"name": "Categoria Profesional",
 					"label": "Categor&iacute;as Profesionales",
+				},
+				{
+					"type": "doctype",
+					"name": "Modalidad",
+					"label": "Modalidades",
+				},
+				{
+					"type": "doctype",
+					"name": "Tipo de Actividad",
+					"label": "Tipos de Actividades",
 				},
 				{
 					"type": "doctype",
