@@ -1,6 +1,6 @@
 // Copyright (c) 2018, HISPALIS DIGITAL and contributors
 // For license information, please see license.txt
-{% include 'doctorus/public/js/doctype/user_common.js' %}
+{% include 'doctorus/doctorus/lib/user_common.js' %}
 
 cur_frm.add_fetch("institution", "university", "university");
 

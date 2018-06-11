@@ -72,7 +72,7 @@ def get_data():
 			"icon": "octicon octicon-calendar",
 			"type": "link",
 			"label": _("Actividades"),
-			"link": "List/Actividades"
+			"link": "List/Actividad"
 		},
 		{
 			"_doctype": "Evaluacion",

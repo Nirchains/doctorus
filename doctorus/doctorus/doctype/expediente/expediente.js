@@ -18,7 +18,21 @@ frappe.ui.form.on('Expediente', {
 					frappe.set_route("Form", "Programa", frm.doc.program);
 				}
 			);
+
+			//Inhabilitamos el campo modalidad para que no pueda modificarse a menos que se haga una solicitud de cambio de modalidad
+			frm.toggle_enable("modality", false);
 		
+		} 
+
+		if(frm.doc.__islocal) {
+			util.import_template_documents(frm, "fase_previa_template", "fase_previa_table");
+			util.import_template_documents(frm, "comunicaciones_template", "comunicaciones_table")
+			util.import_template_documents(frm, "tribunal_template", "tribunal_table");
+			util.import_template_documents(frm, "defensa_template", "defensa_table");
 		}
-	}
+				
+	},
+
+
+
 });

@@ -24,3 +24,21 @@ def force_default(self):
 		elif df.default:
 			# set default title for new transactions (if default)
 			self.set(df.fieldname, df.default.format(**get_values()))
+
+@frappe.whitelist()
+#Carga plantilla del repositorio de ficheros
+def load_repository_template(parentfield):
+	
+	plantilla = []
+
+	try:
+		plantilla = frappe.get_list("Repositorio", 
+								filters={'parent': 'Configuracion del Programa',
+										'parenttype': 'Configuracion del Programa',
+										'parentfield': parentfield },
+								fields="*")
+	except Exception as e:
+		frappe.msgprint(_("No se ha podido obtener la plantilla"))
+		raise e
+	
+	return plantilla

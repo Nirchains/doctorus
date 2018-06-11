@@ -66,5 +66,39 @@
   "property": "width", 
   "property_type": null, 
   "value": "410"
+ }, 
+ {
+  "_assign": null, 
+  "_comments": null, 
+  "_liked_by": null, 
+  "_user_tags": null, 
+  "default_value": null, 
+  "doc_type": "Matricula", 
+  "docstatus": 0, 
+  "doctype": "Property Setter", 
+  "doctype_or_field": "DocField", 
+  "field_name": "title", 
+  "modified": "2018-06-11 16:01:36.963882", 
+  "name": "Matricula-title-width", 
+  "property": "width", 
+  "property_type": null, 
+  "value": "315"
+ }, 
+ {
+  "_assign": null, 
+  "_comments": null, 
+  "_liked_by": null, 
+  "_user_tags": null, 
+  "default_value": null, 
+  "doc_type": "Profesor", 
+  "docstatus": 0, 
+  "doctype": "Property Setter", 
+  "doctype_or_field": "DocField", 
+  "field_name": "department", 
+  "modified": "2018-06-11 17:50:12.682486", 
+  "name": "Profesor-department-width", 
+  "property": "width", 
+  "property_type": null, 
+  "value": "175"
  }
 ]
