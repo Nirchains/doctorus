@@ -87,7 +87,7 @@ def get_data():
 			"_doctype": "Documentacion Expediente",
 			"module_name": "Documentacion Expedientes",
 			"color": "#7574ff",
-			"icon": "octicon octicon-file",
+			"icon": "octicon octicon-file-text",
 			"type": "link",
 			"label": _("Documentaci&oacute;n Expedientes"),
 			"link": "List/Documentacion Expediente"
@@ -96,7 +96,7 @@ def get_data():
 			"_doctype": "Documentacion Programa",
 			"module_name": "Documentacion Programa",
 			"color": "#639744",
-			"icon": "octicon octicon-file",
+			"icon": "octicon octicon-file-text",
 			"type": "link",
 			"label": _("Documentaci&oacute;n Programa"),
 			"link": "List/Documentacion Programa"
