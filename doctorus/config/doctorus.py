@@ -16,7 +16,22 @@ def get_data():
 					"type": "doctype",
 					"name": "Profesor",
 					"label": "Profesores"
-				}
+				},
+				{
+					"type": "doctype",
+					"name": "Institucion",
+					"label": "Instituciones",
+				},
+				{
+					"type": "doctype",
+					"name": "Departamento",
+					"label": "Departamentos",
+				},
+				{
+					"type": "doctype",
+					"name": "Categoria Profesional",
+					"label": "Categor&iacute;as Profesionales",
+				},
 			]
 		},
 		{
@@ -36,7 +51,7 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Prorroga",
-					"label": "Pr&oacute;rroga"
+					"label": "Pr&oacute;rrogas"
 				},
 				{
 					"type": "doctype",
@@ -52,28 +67,17 @@ def get_data():
 					"type": "doctype",
 					"name": "Evaluacion",
 					"label": "Evaluaciones"
-				}
+				},
+				{
+					"type": "doctype",
+					"name": "Documentacion Expediente",
+					"label": "Documentaci&oacute;n de Expedientes"
+				},
 
 			]
 		},
 		{
-			"label": _("Instituciones y Departamentos"),
-			"icon": "fa fa-star",
-			"items": [
-				{
-					"type": "doctype",
-					"name": "Institucion",
-					"label": "Instituciones",
-				},
-				{
-					"type": "doctype",
-					"name": "Departamento",
-					"label": "Departamentos",
-				}
-			]
-		},
-		{
-			"label": _("Configuraci&oacute;n"),
+			"label": _("Programa"),
 			"icon": "fa fa-star",
 			"items": [
 				{
@@ -83,14 +87,20 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "Curso",
-					"label": "Cursos Acad&eacute;micos",
+					"name": "Documentacion Programa",
+					"label": "Documentaci&oacute;n del Programa"
 				},
 				{
 					"type": "doctype",
-					"name": "Categoria Profesional",
-					"label": "Categor&iacute;as Profesionales",
-				},
+					"name": "Curso",
+					"label": "Cursos Acad&eacute;micos",
+				}
+			]
+		},
+		{
+			"label": _("Configuraci&oacute;n"),
+			"icon": "fa fa-star",
+			"items": [
 				{
 					"type": "doctype",
 					"name": "Modalidad",

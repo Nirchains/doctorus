@@ -5,6 +5,7 @@ cur_frm.add_fetch("research_line", "title", "research_line_title");
 
 
 frappe.ui.form.on('Expediente', {
+	
 	refresh: function(frm) {
 		if(!frm.doc.__islocal) {
 			frm.add_custom_button(__("Ver estudiante"),
@@ -38,13 +39,10 @@ frappe.ui.form.on('Expediente', {
 					break;
 			}
 
-		} else {
-			util.import_template_documents(frm, "fase_previa_template", "fase_previa_table");
-			util.import_template_documents(frm, "comunicaciones_template", "comunicaciones_table")
-			util.import_template_documents(frm, "tribunal_template", "tribunal_table");
-			util.import_template_documents(frm, "defensa_template", "defensa_table");
-		}
-				
+		} 			
+
+		cur_frm.cscript.set_activities_indicator();
+		cur_frm.cscript.set_status_indicator();
 	},
 
 });
@@ -76,4 +74,25 @@ cur_frm.cscript.update_expedient_status = function(status) {
 		}
 	})
 	
+}
+
+cur_frm.cscript.set_activities_indicator = function () {
+	var activities_status_control = "div[data-fieldname='activities'] .control-value";
+		
+	switch($(activities_status_control).html()) {
+		case "No superadas":
+			$(activities_status_control).addClass("indicator red");
+			break;
+		case "Superadas":
+			$(activities_status_control).addClass("indicator green");
+			break;
+	}	
+}
+
+cur_frm.cscript.set_status_indicator = function() {
+	var status_control = "div[data-fieldname='status'] .control-value";
+	var indicator = frappe.get_indicator(cur_frm.doc);
+	if (indicator) {
+		$(status_control).addClass("indicator " + indicator[1]);
+	}
 }

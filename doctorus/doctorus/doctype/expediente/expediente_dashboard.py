@@ -12,7 +12,7 @@ def get_data():
 			},
 			{
 				'label': _('Evaluaci&oacute;n'),
-				'items': ['Actividad', 'Evaluacion']
+				'items': ['Actividad', 'Evaluacion', 'Documentacion Expediente']
 			}
 		]
 	}

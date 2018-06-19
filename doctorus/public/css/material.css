@@ -955,13 +955,25 @@ html {
 }
 .has-error .form-control:focus {box-shadow: none;}
 
+.btn {
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
 .btn-default {
-  background-color: #fafbfc;
+  background-color: #d2b154;
+  border-color: #f1cf64;
+  color: #fff;
 }
 .btn-primary {
     color: #fff;
-    background-color: #5e64ff;
-    border-color: #444bff;
+    background-color: #699347;
+    border-color: #82bf57;
+}
+.btn-new {
+  background-color: #bbb;
+  border: none;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -969,12 +981,10 @@ html {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-
-  background-color: #f5f5f5;
-
+  background-color: #d2b154;
+  border-color: #f1cf64;
   box-shadow: 1px 1px 5px #a2a2a2;
-  color: black;
-  border-radius: 0px;
+  color: #FCFCFC;
 }
 
 .btn-info {
@@ -989,8 +999,10 @@ html {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-
+  background-color: #699347;
   box-shadow: 1px 1px 2px #b5b4b4;
+  border-color: #82bf57;
+  color: #FCFCFC;
 }
 
 .dropdown-menu > li > a:hover,

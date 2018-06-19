@@ -35,9 +35,14 @@ textarea.form-control {
   padding-top: 3px;
 }
 /*Estilos Home*/
+.page-title .title-text {
+    color: #ac9145;
+}
+
 h6.uppercase,
 .h6.uppercase {
   font-size: 17px;
+  color: #ac9145;
 }
 .app-icon {
   border: 10px solid rgba(255, 255, 255, 0.5);
@@ -111,3 +116,11 @@ div[data-link*="modules/"] .app-icon {
   display: initial;
 }
 
+.grid-heading-row {
+  border-bottom: 1px solid #d1d8dd;
+  background-color: #f8fcf7;
+}
+
+.btn-default.text-muted {
+  color: #fff !important;
+}
