@@ -9,7 +9,8 @@
         "public/js/formatters.js",
         "public/js/fix.js",
         "public/js/extra.js",
-        "public/js/custom.js"
+        "public/js/custom.js",
+        "public/js/print.js"
     ],
     "js/core.js": [
         "public/js/core/upload.js",

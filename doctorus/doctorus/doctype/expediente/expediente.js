@@ -39,6 +39,15 @@ frappe.ui.form.on('Expediente', {
 					break;
 			}
 
+			frm.add_custom_button(__("Imprimir"),
+				function() {
+					var format = "Expediente";
+					var with_letterhead = false;
+					var lang_code = "ES";
+					var printit = false;
+					print.html(format,with_letterhead,lang_code,printit);
+				}
+			);
 		} 			
 
 		cur_frm.cscript.set_activities_indicator();
