@@ -124,3 +124,11 @@ div[data-link*="modules/"] .app-icon {
 .btn-default.text-muted {
   color: #fff !important;
 }
+
+.section-head {
+  color: #75A26F;
+}
+
+.module-section-link i.octicon, .module-section-link i.fa {
+  color: #D2B154;
+}

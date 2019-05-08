@@ -10,90 +10,90 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Estudiante",
-					"label": "Estudiantes",
+					"label": "<i class='octicon octicon-organization'></i> Estudiantes",
 				},
 				{
 					"type": "doctype",
 					"name": "Profesor",
-					"label": "Profesores"
+					"label": "<i class='octicon octicon-broadcast'></i> Profesores"
 				},
 				{
 					"type": "doctype",
 					"name": "Institucion",
-					"label": "Instituciones",
+					"label": "<i class='octicon octicon-globe'></i> Instituciones",
 				},
 				{
 					"type": "doctype",
 					"name": "Departamento",
-					"label": "Departamentos",
+					"label": "<i class='octicon octicon-tag'></i> Departamentos",
 				},
 				{
 					"type": "doctype",
 					"name": "Categoria Profesional",
-					"label": "Categor&iacute;as Profesionales",
+					"label": "<i class='octicon octicon-star'></i> Categor&iacute;as Profesionales",
 				},
 			]
 		},
 		{
-			"label": _("Seguimiento"),
+			"label": _("Seguimiento por alumno"),
 			"icon": "fa fa-star",
 			"items": [
 				{
 					"type": "doctype",
 					"name": "Expediente",
-					"label": "Expedientes"
+					"label": "<i class='octicon octicon-mortar-board'></i> Expedientes"
 				},
 				{
 					"type": "doctype",
 					"name": "Matricula",
-					"label": "Matr&iacute;culas"
+					"label": "<i class='fa fa-money'></i> Matr&iacute;culas"
 				},
 				{
 					"type": "doctype",
 					"name": "Prorroga",
-					"label": "Pr&oacute;rrogas"
+					"label": "<i class='octicon octicon-repo-force-push'></i> Pr&oacute;rrogas"
 				},
 				{
 					"type": "doctype",
 					"name": "Cambio de Modalidad",
-					"label": "Cambios de Modalidad"
+					"label": "<i class='octicon octicon-git-compare'></i> Cambios de Modalidad"
 				},
 				{
 					"type": "doctype",
 					"name": "Actividad",
-					"label": "Actividades"
+					"label": "<i class='octicon octicon-calendar'></i> Actividades"
 				},
 				{
 					"type": "doctype",
 					"name": "Evaluacion",
-					"label": "Evaluaciones"
+					"label": "<i class='octicon octicon-checklist'></i> Evaluaciones"
 				},
 				{
 					"type": "doctype",
 					"name": "Documentacion Expediente",
-					"label": "Documentaci&oacute;n de Expedientes"
+					"label": "<i class='octicon octicon-file-text'></i> Documentaci&oacute;n de Expedientes"
 				},
 
 			]
 		},
 		{
-			"label": _("Programa"),
+			"label": _("Datos del Programa de Doctorado"),
 			"icon": "fa fa-star",
 			"items": [
 				{
 					"type": "doctype",
 					"name": "Programa",
-					"label": "Programa y L&iacute;neas",
+					"label": "<i class='octicon octicon-home'></i> Programa y L&iacute;neas",
 				},
 				{
 					"type": "doctype",
 					"name": "Documentacion Programa",
-					"label": "Documentaci&oacute;n del Programa"
+					"label": "<i class='octicon octicon-file-submodule'></i> Repositorio de Documentaci&oacute;n General"
 				},
 				{
 					"type": "doctype",
 					"name": "Curso",
-					"label": "Cursos Acad&eacute;micos",
+					"label": "<i class='octicon octicon-watch'></i> Cursos Acad&eacute;micos y Actas de Evaluaci&oacute;n",
 				}
 			]
 		},
@@ -104,17 +104,37 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Modalidad",
-					"label": "Modalidades",
+					"label": "<i class='octicon octicon-clock'></i> Modalidades",
 				},
 				{
 					"type": "doctype",
 					"name": "Tipo de Actividad",
-					"label": "Tipos de Actividades",
+					"label": "<i class='octicon octicon-calendar'></i> Tipos de Actividades",
+				},
+				{
+					"type": "doctype",
+					"name": "Estados de Matricula",
+					"label": "<i class='octicon octicon-gear'></i> Estados de Matr&iacute;cula",
+				},
+				{
+					"type": "doctype",
+					"name": "Estados No Si",
+					"label": "<i class='octicon octicon-gear'></i> Estados No/Si",
+				},
+				{
+					"type": "doctype",
+					"name": "Estados de Evaluacion",
+					"label": "<i class='octicon octicon-gear'></i> Estados de Evaluaci&oacute;n",
+				},
+				{
+					"type": "doctype",
+					"name": "Estados Actividades",
+					"label": "<i class='octicon octicon-gear'></i> Estados Actividades",
 				},
 				{
 					"type": "doctype",
 					"name": "Configuracion del Programa",
-					"label": "Configuraci&oacute;n General del Programa",
+					"label": "<i class='octicon octicon-gear'></i> Configuraci&oacute;n General del Programa",
 				},
 
 			]

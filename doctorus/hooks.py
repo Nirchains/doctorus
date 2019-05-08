@@ -25,7 +25,8 @@ app_include_js = [
     "/assets/js/core.js"
 ]
 
-fixtures=['Custom Field', 'Property Setter','Print Format','Custom Script']
+#fixtures=['Custom Field', 'Property Setter','Print Format','Custom Script']
+fixtures=['Print Format','Custom Script']
 
 # include js, css files in header of web template
 # web_include_css = "/assets/doctorus/css/doctorus.css"
